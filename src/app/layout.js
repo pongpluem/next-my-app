@@ -1,6 +1,10 @@
 import { Inter } from "next/font/google";
 import "./globals.css";
 
+import { PrimeReactProvider, PrimeReactContext } from 'primereact/api';
+import "primereact/resources/themes/lara-light-cyan/theme.css";
+        
+
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
